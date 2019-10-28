@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1572291057">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1572295080">
+  <File Type="OPT-HWDEF" Name="Multiplier.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Multiplier_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="Multiplier.dcp"/>
   <File Type="BITSTR-BMM" Name="Multiplier_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="Multiplier_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="Multiplier_timing_summary_init.rpt"/>
@@ -10,7 +13,6 @@
   <File Type="ROUTE-PWR-SUM" Name="Multiplier_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="Multiplier_reports.tcl"/>
   <File Type="OPT-DRC" Name="Multiplier_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="Multiplier.hwdef"/>
   <File Type="PWROPT-DCP" Name="Multiplier_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="Multiplier_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="Multiplier_timing_summary_pwropted.rpt"/>
@@ -22,7 +24,6 @@
   <File Type="PLACE-CTRL" Name="Multiplier_control_sets_placed.rpt"/>
   <File Type="PLACE-SIMILARITY" Name="Multiplier_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="Multiplier_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="Multiplier.bgn"/>
   <File Type="PLACE-TIMING" Name="Multiplier_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="Multiplier_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="Multiplier.bin"/>
@@ -52,7 +53,6 @@
   <File Type="ROUTE-TIMING-RPX" Name="Multiplier_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="Multiplier_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="Multiplier_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="Multiplier_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="Multiplier_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="Multiplier_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="Multiplier_postroute_physopt.dcp"/>
@@ -66,6 +66,7 @@
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Multiplier_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="Multiplier.rbt"/>
   <File Type="BITSTR-NKY" Name="Multiplier.nky"/>
+  <File Type="BG-BGN" Name="Multiplier.bgn"/>
   <File Type="BG-DRC" Name="Multiplier.drc"/>
   <File Type="RDI-RDI" Name="Multiplier.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
@@ -85,6 +86,12 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
@@ -96,9 +103,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

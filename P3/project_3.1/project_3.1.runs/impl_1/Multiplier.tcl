@@ -66,17 +66,12 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 2
-  create_project -in_memory -part xc7a35tcpg236-1
-  set_property board_part_repo_paths {C:/Users/Osurac/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store} [current_project]
-  set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
+  reset_param project.defaultXPMLibraries 
+  open_checkpoint D:/Workspace/Xilinx/project_3.1/project_3.1.runs/impl_1/Multiplier.dcp
   set_property webtalk.parent_dir D:/Workspace/Xilinx/project_3.1/project_3.1.cache/wt [current_project]
   set_property parent.project_path D:/Workspace/Xilinx/project_3.1/project_3.1.xpr [current_project]
   set_property ip_output_repo D:/Workspace/Xilinx/project_3.1/project_3.1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet D:/Workspace/Xilinx/project_3.1/project_3.1.runs/synth_1/Multiplier.dcp
-  link_design -top Multiplier -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {
