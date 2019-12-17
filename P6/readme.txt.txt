@@ -1,0 +1,1 @@
+Renombrar P6 por Practica_6 para abrir directamente en vivado
