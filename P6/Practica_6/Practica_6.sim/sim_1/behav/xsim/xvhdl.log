@@ -1,0 +1,26 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/MIPSMulticiclo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIPSMulticiclo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/bancoDeRegistros.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bancoDeRegistros'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/conv_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'conv_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'debouncer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/displays.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'displays'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/memoria.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'memoria'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/multiplexor2a1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplexor2a1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/multiplexor4a1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplexor4a1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/registro.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/rutaDeDatos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rutaDeDatos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/unidadDeControl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'unidadDeControl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Downloads/MIPSMulticiclo_R3yModoDepuracion/MIPSMulticiclo_R3yModoDepuracion/ficheros/TestBenchMIPSMulticiclo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TestBenchMIPSMulticiclo'

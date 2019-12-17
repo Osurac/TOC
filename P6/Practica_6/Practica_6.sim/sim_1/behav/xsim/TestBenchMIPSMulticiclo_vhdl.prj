@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ficheros/ALU.vhd" \
+"../../../../ficheros/MIPSMulticiclo.vhd" \
+"../../../../ficheros/bancoDeRegistros.vhd" \
+"../../../../ficheros/conv_7seg.vhd" \
+"../../../../ficheros/debouncer.vhd" \
+"../../../../ficheros/displays.vhd" \
+"../../../../ficheros/memoria.vhd" \
+"../../../../ficheros/multiplexor2a1.vhd" \
+"../../../../ficheros/multiplexor4a1.vhd" \
+"../../../../ficheros/registro.vhd" \
+"../../../../ficheros/rutaDeDatos.vhd" \
+"../../../../ficheros/unidadDeControl.vhd" \
+"../../../../ficheros/TestBenchMIPSMulticiclo.vhd" \
+
+# Do not sort compile order
+nosort
