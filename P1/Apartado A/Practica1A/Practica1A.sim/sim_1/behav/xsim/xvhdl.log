@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Desktop/GitHub Repos/TOC/P1/Apartado A/Archivos/sumador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sumador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Osurac/Desktop/GitHub Repos/TOC/P1/Apartado A/Archivos/tb_sumador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_sumador'

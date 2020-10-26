@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "u:/hlocal/P1a1/P1a1.srcs/sources_1/imports/P1/adder.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'adder4b'
-INFO: [VRFC 10-163] Analyzing VHDL file "u:/hlocal/P1a1/P1a1.srcs/sim_1/imports/P1/tb_adder4b.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_sumador'

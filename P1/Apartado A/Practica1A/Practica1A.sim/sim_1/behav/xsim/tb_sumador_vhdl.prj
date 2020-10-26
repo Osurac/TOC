@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Desktop/GitHub Repos/TOC/P1/Apartado A/Archivos/sumador.vhd" \
+"../../../../../Desktop/GitHub Repos/TOC/P1/Apartado A/Archivos/tb_sumador.vhd" \
+
+# Do not sort compile order
+nosort

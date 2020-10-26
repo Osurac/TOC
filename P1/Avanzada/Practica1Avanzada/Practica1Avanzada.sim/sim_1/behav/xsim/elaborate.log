@@ -1,0 +1,19 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 288f26fcbbb440628faa9cd6f03f955d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot simulacion_contador_behav xil_defaultlib.simulacion_contador -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.sumador [sumador_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
+Compiling architecture behavioral of entity xil_defaultlib.contadorMod16 [contadormod16_default]
+Compiling architecture behavior of entity xil_defaultlib.simulacion_contador
+Built simulation snapshot simulacion_contador_behav

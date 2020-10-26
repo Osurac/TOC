@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../P1a1.srcs/sources_1/imports/P1/adder.vhd" \
-"../../../../P1a1.srcs/sim_1/imports/P1/tb_adder4b.vhd" \
-
-# Do not sort compile order
-nosort

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Practica1Avanzada.srcs/sources_1/new/contadorMod16.vhd" \
+"../../../../../Desktop/GitHub Repos/TOC/P1/Avanzada/Archivos/registro.vhd" \
+"../../../../../Desktop/GitHub Repos/TOC/P1/Avanzada/Archivos/sumador.vhd" \
+"../../../../../Desktop/GitHub Repos/TOC/P1/Avanzada/Archivos/simulacion_contador.vhd" \
+
+# Do not sort compile order
+nosort

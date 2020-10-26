@@ -1,0 +1,1 @@
+-wto "288f26fcbbb440628faa9cd6f03f955d" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "simulacion_contador_behav" "xil_defaultlib.simulacion_contador" -log "elaborate.log" 

@@ -1,8 +1,0 @@
-Vivado Simulator 2019.1
-Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: C:/software/electronica/xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8a2d3526d3e24dce9d0a209a7b6ce9d7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_sumador_behav xil_defaultlib.tb_sumador -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [u:/hlocal/P1_Entrega/P1_Entrega.srcs/sources_1/imports/P1/adder.vhd:20]
-ERROR: [VRFC 10-3353] formal port 'op' has no actual or default value [u:/hlocal/P1_Entrega/P1_Entrega.srcs/sources_1/imports/P1/adder.vhd:9]
-ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_sumador in library work failed.

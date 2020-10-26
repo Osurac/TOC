@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Oct 21 11:36:19 2020
+# Process ID: 14332
+# Current directory: C:/Users/Osurac/Practica1Avanzada/Practica1Avanzada.runs/impl_1
+# Command line: vivado.exe -log sintesis_contador.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sintesis_contador.tcl -notrace
+# Log file: C:/Users/Osurac/Practica1Avanzada/Practica1Avanzada.runs/impl_1/sintesis_contador.vdi
+# Journal file: C:/Users/Osurac/Practica1Avanzada/Practica1Avanzada.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sintesis_contador.tcl -notrace
