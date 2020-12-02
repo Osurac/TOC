@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Practica2.srcs/sources_1/new/cerrojo.vhd" \
+"E:/Descargas/PR2/conv_7seg.vhd" \
+"E:/Descargas/PR2/debouncer.vhd" \
+"E:/Descargas/PR2/simulacion_cerrojo.vhd" \
+
+# Do not sort compile order
+nosort
